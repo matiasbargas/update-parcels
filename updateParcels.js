@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var fs = require('fs'); 
 
 function str2Coordinates(strCoor) {
@@ -35,8 +37,8 @@ function getParcels(swStrCoor, neStrCoor){
     return parcels
 }
 
-const swStrCoor= process.argv[1]
-const neStrCoor= process.argv[2]
+const swStrCoor= process.argv[2]
+const neStrCoor= process.argv[3]
 
 if(!swStrCoor || !neStrCoor){
     throw new Error("missing sw and ne coordinates")
