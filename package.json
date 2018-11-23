@@ -1,0 +1,25 @@
+{
+  "name": "update-parcels",
+  "version": "1.0.0",
+  "description": "update decentraland parcels in scene.json from sw and ne coordinates",
+  "main": "updateParcels.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasbargas/update-parcels.git"
+  },
+  "keywords": [
+    "decentraland",
+    "scene",
+    "land",
+    "parcels"
+  ],
+  "author": "matiasbargas",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/matiasbargas/update-parcels/issues"
+  },
+  "homepage": "https://github.com/matiasbargas/update-parcels#readme"
+}
